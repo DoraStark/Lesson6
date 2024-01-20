@@ -35,7 +35,7 @@ public class Matrix {
         for (int i = 0; i<matrix2.length; i++){
             System.out.println(Arrays.toString(matrix2[i]));
         }
-
+scanner.close();
     }
 
 
