@@ -19,7 +19,7 @@ public class Matrix {
             }
         }
         System.out.println("Матриця: ");
-        for (int i = 0; i<matrix1.length; i++){
+        for(int i = 0; i<matrix1.length; i++){
             System.out.println(Arrays.toString(matrix1[i]));
         }
 
