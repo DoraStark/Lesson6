@@ -1,12 +1,15 @@
 import java.util.Arrays;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Matrix {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-        int m = random.nextInt(10);
-        int n = random.nextInt(10);
+        System.out.println("Enter M value: ");
+        int m = scanner.nextInt();
+        System.out.println("Enter N value: ");
+        int n = scanner.nextInt();
         int filler = random.nextInt(10);
 
         int[][] matrix1 = new int[m][n];
